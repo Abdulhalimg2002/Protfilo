@@ -24,7 +24,7 @@ export const Navlink:Nav[]=[
 export const ProjectsS:ProjectC[]=[
     {
         id:"Salone",
-        img:"https://scontent.fist7-2.fna.fbcdn.net/v/t39.30808-6/499916058_1896556817766706_6606878873249489728_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=YPxh_HMJXBgQ7kNvwGLFKmh&_nc_oc=AdkzoA89dgfWRJxXEW-3bd9rPYCWQ68ch1x1mYu0loKFQ4UJa3KxEc7uXrOgWzxzFng&_nc_zt=23&_nc_ht=scontent.fist7-2.fna&_nc_gid=YVG1OKzHVGefkuXgdheiOA&oh=00_Affq5-K8riRMSmNwC2LRJMFX63OlPgHCe4lbl9HMX-aYYA&oe=68EAE430",
+        img:"https://scontent.fist7-2.fna.fbcdn.net/v/t39.30808-6/499916058_1896556817766706_6606878873249489728_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=XV_lOewHavwQ7kNvwFRH4GT&_nc_oc=AdkORog17W2DpKUINjuJEphHZXQqReurGEV76TIxIPQAvBpxI8l600m2S3pkaEl6EBs&_nc_zt=23&_nc_ht=scontent.fist7-2.fna&_nc_gid=Gprt-C6q5C44F5TciSVcBA&oh=00_AffaKYYk8HaDiP3cRptE6YB8acuTD_feHU4m1V5yF-Cmiw&oe=68F6C1B0",
         projectT:"Masaya Haneen",
         Tool:["HTML","JavaScript","TalwindCss"],
 des:"“Masaya Haneen brings the barber experience online — browse services, book appointments, view offers, and meet our expert team in one seamless platform.",
