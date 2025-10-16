@@ -1,0 +1,13 @@
+- [x] Create ThemeContext for managing dark/light mode state
+- [x] Update App.tsx to wrap with ThemeProvider
+- [x] Add theme toggle button to Navbar component
+- [x] Update Home component styles for light/dark mode
+- [x] Update About component styles for light/dark mode
+- [x] Update Title component styles for light/dark mode
+- [x] Update Prag component styles for light/dark mode
+- [x] Update Projects component styles for light/dark mode
+- [x] Update Contact component styles for light/dark mode
+- [x] Update Footer component styles for light/dark mode
+- [x] Update Links component styles for light/dark mode
+- [ ] Update other components if needed (Button, Imag, etc.)
+- [ ] Test the theme toggle functionality
