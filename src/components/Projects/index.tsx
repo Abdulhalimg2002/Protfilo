@@ -9,9 +9,9 @@ const Projects = () => {
   return (
     <section
       id="Project"
-      className="min-h-screen bg-white dark:bg-[#000000] py-16 flex flex-col items-center"
+      className="min-h-screen  py-16 flex flex-col items-center"
     >
-      <Title className="text-4xl font-bold text-black dark:text-white mb-12">
+      <Title className="text-4xl font-bold text-white mb-12">
         My Projects
       </Title>
 
@@ -23,7 +23,7 @@ const Projects = () => {
         {ProjectsS.map((project) => (
           <div
             key={project.id}
-            className="bg-neutral-200 dark:bg-neutral-800 shadow-lg rounded-md overflow-hidden hover:shadow-xl transition flex flex-col h-full"
+            className="bg-gray-800 shadow-lg rounded-md overflow-hidden hover:shadow-xl transition flex flex-col h-full"
           >
             {/* الصورة */}
             <Imag
@@ -35,12 +35,12 @@ const Projects = () => {
             {/* المحتوى */}
             <div className="p-6 flex flex-col flex-grow">
               {/* عنوان المشروع */}
-              <Title className="text-xl text-center text-black dark:text-white mb-2">
+              <Title className="text-xl text-center  mb-2">
                 {project.projectT}
               </Title>
 
               {/* الوصف */}
-              <Prag className="text-gray-600 dark:text-gray-300 flex-grow text-center">
+              <Prag className="  flex-grow text-center">
                 {project.des}
               </Prag>
 
@@ -49,7 +49,7 @@ const Projects = () => {
                 {project.Tool.map((tool, index) => (
                   <span
                     key={index}
-                    className="px-3 py-1 text-black dark:text-white hover:bg-[#3396D3] bg-gray-200 dark:bg-gray-700 rounded-full text-xs font-medium"
+                    className="px-3 py-1 text-white hover:bg-[#3396D3] bg-gray-700 rounded-full text-xs font-medium"
                   >
                     {tool}
                   </span>

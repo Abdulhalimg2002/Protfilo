@@ -6,7 +6,7 @@ children:ReactNode;
 }
 const index=({className,children}:IPropes)=>{
     return(
-        <p className={`text-lg text-black dark:text-white text-center   md:text-left ${className}` }>{children}</p>
+        <p className={`text-lg font-bold text-white text-center    ${className}` }>{children}</p>
     )
 }
 export default index;

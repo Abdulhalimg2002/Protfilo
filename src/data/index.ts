@@ -1,4 +1,4 @@
-import type { Nav, ProjectC } from "../interfaces";
+import type { Nav, ProjectC, ServiceC, Skill } from "../interfaces";
 
 export const Navlink:Nav[]=[
     {
@@ -10,6 +10,15 @@ export const Navlink:Nav[]=[
         name:"About",
     },
      {
+        id:"Skills",
+        name:"skills",
+    },
+       {
+        id:"Service",
+        name:"Service",
+        
+    },
+     {
         id:"Project",
         name:"Project",
 
@@ -18,7 +27,8 @@ export const Navlink:Nav[]=[
         id:"Contact",
         name:"Contact",
         
-    }
+    },
+   
 
 ]
 export const ProjectsS:ProjectC[]=[
@@ -27,7 +37,7 @@ export const ProjectsS:ProjectC[]=[
         img:"https://scontent.fist7-2.fna.fbcdn.net/v/t39.30808-6/499916058_1896556817766706_6606878873249489728_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=XV_lOewHavwQ7kNvwFRH4GT&_nc_oc=AdkORog17W2DpKUINjuJEphHZXQqReurGEV76TIxIPQAvBpxI8l600m2S3pkaEl6EBs&_nc_zt=23&_nc_ht=scontent.fist7-2.fna&_nc_gid=Gprt-C6q5C44F5TciSVcBA&oh=00_AffaKYYk8HaDiP3cRptE6YB8acuTD_feHU4m1V5yF-Cmiw&oe=68F6C1B0",
         projectT:"Masaya Haneen",
         Tool:["HTML","JavaScript","TalwindCss"],
-des:"“Masaya Haneen brings the barber experience online — browse services, book appointments, view offers, and meet our expert team in one seamless platform.",
+des:"Masaya Haneen brings the barber experience online — browse services, book appointments, view offers, and meet our expert team in one seamless platform.",
 href:["https://abdulhalimg2002.github.io/Masaya-Haneen/","https://github.com/Abdulhalimg2002/Masaya-Haneen"],
 Text:["Live Demo","Github"],
 
@@ -38,13 +48,137 @@ Text:["Live Demo","Github"],
         projectT:"Task Manger",
         Tool:["HTML","CSS","JavaScript","PHP","MySQL"],
 des:"TaskManager helps teams organize, track, and prioritize tasks for better productivity and collaboration.",
-href:["http://taskmanger3.wuaze.com","https://github.com/Abdulhalimg2002/TAsk_Manger"],   
+href:["http://taskmanger3.wuaze.com","https://github.com/Abdulhalimg2002/TAsk_Manger"],
 Text:["Live Demo","Github"],
 
 
 },
 
 
- 
+
+]
+
+
+export const Services:ServiceC[]=[
+    {
+        id:"Web Development",
+        title:"Web Development",
+        description:"create responsive and dynamic websites using modern technologies like React and Tailwind CSS.",
+        icon:"🌐",
+    },
+
+    {
+        id:"Backend Development",
+        title:"Backend Development",
+        description:"Developing robust server-side applications with laravel  and databases like MongoDB and MySQL.",
+        icon:"⚙️",
+    },
+    {
+        id:"UI/UX Design",
+        title:"UI/UX Design",
+        description:"Designing intuitive user interfaces and experiences using Figma tools.",
+        icon:"🎨",
+    },
+    {
+        id:"API Development",
+        title:"API Development",
+        description:"Creating RESTful  APIs for seamless data integration and communication.",
+        icon:"🔗",
+    },
+
+]
+
+export const Skills:Skill[]=[
+    {
+        id:"HTML",
+        name:"HTML",
+        level:90,
+        category:"Frontend",
+        icon:"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
+    },
+    {
+        id:"CSS",
+        name:"CSS",
+        level:90,
+        category:"Frontend",
+        icon:"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"
+    },
+    {
+        id:"JavaScript",
+        name:"JavaScript",
+        level:60,
+        category:"Frontend",
+        icon:"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+    },
+    {
+        id:"TypeScript",
+        name:"TypeScript",
+        level:60,
+        category:"Frontend",
+        icon:"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg"
+    },
+    {
+        id:"React",
+        name:"React",
+        level:50,
+        category:"Frontend",
+        icon:"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
+    },
+    {
+        id:"Tailwind CSS",
+        name:"Tailwind CSS",
+        level:95,
+        category:"Frontend",
+        icon:"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg"
+    },
   
+    
+    {
+        id:"MongoDB",
+        name:"MongoDB",
+        level:65,
+        category:"Backend",
+        icon:"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg"
+    },
+    {
+        id:"Git",
+        name:"Git",
+        level:70,
+        category:"Tools",
+        icon:"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg"
+    },
+       { id:"Github",
+        name:"Github",
+        level:70,
+        category:"Tools",
+        icon:"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
+    },
+    {
+        id:"Figma",
+        name:"Figma",
+        level:60,
+        category:"Design",
+        icon:"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg"
+    },
+    {
+        id:"PHP",
+        name:"PHP",
+        level:60,
+        category:"Backend",
+        icon:"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg"
+    },
+    {
+        id:"Laravel",
+        name:"Laravel",
+        level:70,
+        category:"Backend",
+        icon:"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/laravel/laravel-original.svg"
+    },
+    {
+        id:"MySQL",
+        name:"MySQL",
+        level:60,
+        category:"Backend",
+        icon:"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg"
+    }
 ]

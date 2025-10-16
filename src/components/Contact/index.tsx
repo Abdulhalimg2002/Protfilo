@@ -7,7 +7,7 @@ const Contact = () => {
   return (
     <section
       id="Contact"
-      className="min-h-screen bg-white dark:bg-[#000000] py-10 flex flex-col items-center"
+      className="min-h-screen  py-10 flex flex-col items-center"
     >
       <AnimatedSection direction="right" stagger={0.2} className="flex flex-col items-center gap-6">
         <Title className="text-4xl mb-5">Get in Touch</Title>

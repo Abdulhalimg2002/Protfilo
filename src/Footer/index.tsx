@@ -3,7 +3,7 @@ import Prag from "../components/Prag";
 const index=()=>{
     return(
         
-       <footer className="bg-white dark:bg-[#000000] text-black dark:text-white  ">
+       <footer className="text-white  ">
       <div className="max-w-6xl mx-auto px-4 flex flex-col md:flex-row items-center justify-between">
         {/* حقوق النشر */}
         <Prag className="text-sm">

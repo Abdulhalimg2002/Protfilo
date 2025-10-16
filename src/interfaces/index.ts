@@ -11,3 +11,16 @@ Tool:string[];
 href:string[];
 Text:string[];
 }
+export interface ServiceC{
+id:string;
+title:string;
+description:string;
+icon:string;
+}
+export interface Skill{
+id:string;
+name:string;
+level:number;
+category?:string;
+icon?:string;
+}
