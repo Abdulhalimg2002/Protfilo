@@ -21,7 +21,7 @@ const index = () => {
   const currentSkills = groupedSkills[selectedCategory] || [];
 
   return (
-   <section id="Skills" className="py-12 sm:py-16 px-4 sm:px-6 lg:px-8">
+   <section  className="py-12 sm:py-16 px-4 sm:px-6 lg:px-8">
   <div className="mx-auto max-w-screen-xl">
 
     {/* Section Title */}

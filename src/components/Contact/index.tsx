@@ -6,7 +6,7 @@ import AnimatedSection from '../Anmation/AnimatedSection';
 const Contact = () => {
   return (
     <section
-      id="Contact"
+      
       className="min-h-screen  py-10 flex flex-col items-center"
     >
       <AnimatedSection direction="right" stagger={0.2} className="flex flex-col items-center gap-6">

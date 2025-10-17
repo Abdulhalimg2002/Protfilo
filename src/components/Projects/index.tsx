@@ -8,7 +8,7 @@ import AnimatedSection from '../Anmation/AnimatedSection';
 const Projects = () => {
   return (
     <section
-      id="Project"
+      
       className="min-h-screen  py-16 flex flex-col items-center"
     >
       <Title className="text-4xl font-bold text-white mb-12">

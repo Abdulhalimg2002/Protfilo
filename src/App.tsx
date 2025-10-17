@@ -30,7 +30,7 @@ function App() {
         <section id="Home"><Home />
         
         </section>
-        <section id="About"><About /></section>
+        <section id="About" ><About /></section>
         <section id="Skills"><Skills /></section>
         <section id="Service"><Service /></section>
         <section id="Project"><Projects /></section>

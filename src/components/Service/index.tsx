@@ -7,7 +7,7 @@ import { Services } from '../../data';
 
 const index = () => {
   return (
-   <section id="Service" className=" py-16 px-4 sm:px-6 lg:px-8">
+   <section  className=" py-16 px-4 sm:px-6 lg:px-8">
   <div className="mx-auto max-w-screen-xl">
   {/* Section Title */}
   <div className="text-center mb-12">
