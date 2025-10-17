@@ -45,7 +45,7 @@ const Index = ({ Navbarlinks }: IPropes) => {
             <Links
               key={Nav.id}
               href={`#${Nav.id}`}
-              className={`px-3 py-2 text-black dark:text-white hover:text-[#3396D3] transition ${
+              className={`px-3 py-2 text-white hover:text-[#3396D3] transition ${
                 activeSection === Nav.id ? "text-[#3396D3] font-semibold" : ""
               }`}
               text={Nav.name}

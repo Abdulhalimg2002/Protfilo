@@ -8,20 +8,32 @@ const Index = () => {
     
     <div
   id="About"
-  className="mx-auto max-w-screen-xl grid grid-cols-1 md:grid-cols-2 items-start gap-6 sm:gap-10 md:gap-16 px-4 sm:px-6"
+  className="mx-auto max-w-screen-xl grid grid-cols-1 md:grid-cols-2 items-start gap-6 sm:gap-8 md:gap-12 px-4 sm:px-5 lg:px-8 py-8"
 >
   {/* الصورة */}
   <AnimatedSection direction="left" stagger={0.2}>
-    <Imag
-      src="/d.png.jpg"
-      alt="Profile"
-      className="w-full h-auto max-h-[300px] sm:max-h-[400px] md:max-h-[600px] lg:max-h-[700px] object-cover object-center rounded-3xl shadow-lg"
-    />
+    <div className="flex justify-center items-center w-full">
+      <Imag
+        src="/d.png.jpg"
+        alt="Profile"
+        className="
+          w-full 
+          max-w-[280px] sm:max-w-[350px] md:max-w-[400px] lg:max-w-[500px]
+          h-auto 
+          max-h-[350px] sm:max-h-[400px] md:max-h-[600px] lg:max-h-[700px] 
+          object-cover 
+          object-center 
+          rounded-3xl 
+          shadow-lg
+          transition-all duration-300
+        "
+      />
+    </div>
   </AnimatedSection>
 
   {/* النصوص */}
   <AnimatedSection direction="right" stagger={0.2}>
-    <div className="flex flex-col justify-center text-center md:text-left space-y-4 sm:space-y-6 md:space-y-8">
+    <div className="flex flex-col justify-center text-center md:text-left space-y-4 sm:space-y-5 md:space-y-6 lg:space-y-8">
 
       {/* About */}
       <div>
@@ -68,11 +80,12 @@ const Index = () => {
       </div>
 
       {/* Skills */}
-      {/* يمكنك إضافة قسم المهارات بنفس النمط */}
-      
+      {/* Add your skills section here if needed */}
+
     </div>
   </AnimatedSection>
 </div>
+
 
    
   )
