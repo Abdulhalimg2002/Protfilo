@@ -92,42 +92,41 @@ export const Skills:Skill[]=[
     {
         id:"HTML",
         name:"HTML",
-        level:90,
         category:"Frontend",
         icon:"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
     },
     {
         id:"CSS",
         name:"CSS",
-        level:90,
+       
         category:"Frontend",
         icon:"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"
     },
     {
         id:"JavaScript",
         name:"JavaScript",
-        level:60,
+       
         category:"Frontend",
         icon:"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
     },
     {
         id:"TypeScript",
         name:"TypeScript",
-        level:60,
+
         category:"Frontend",
         icon:"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg"
     },
     {
         id:"React",
         name:"React",
-        level:50,
+       
         category:"Frontend",
         icon:"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
     },
     {
         id:"Tailwind CSS",
         name:"Tailwind CSS",
-        level:95,
+       
         category:"Frontend",
         icon:"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg"
     },
@@ -136,48 +135,48 @@ export const Skills:Skill[]=[
     {
         id:"MongoDB",
         name:"MongoDB",
-        level:65,
+       
         category:"Backend",
         icon:"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg"
     },
     {
         id:"Git",
         name:"Git",
-        level:70,
+       
         category:"Tools",
         icon:"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg"
     },
        { id:"Github",
         name:"Github",
-        level:70,
+       
         category:"Tools",
         icon:"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
     },
     {
         id:"Figma",
         name:"Figma",
-        level:60,
+       
         category:"Design",
         icon:"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg"
     },
     {
         id:"PHP",
         name:"PHP",
-        level:60,
+       
         category:"Backend",
         icon:"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg"
     },
     {
         id:"Laravel",
         name:"Laravel",
-        level:70,
+        
         category:"Backend",
         icon:"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/laravel/laravel-original.svg"
     },
     {
         id:"MySQL",
         name:"MySQL",
-        level:60,
+       
         category:"Backend",
         icon:"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg"
     }

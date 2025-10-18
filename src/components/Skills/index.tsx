@@ -74,18 +74,7 @@ const index = () => {
             </Title>
 
             {/* Progress Bar */}
-            <div className="relative">
-              <div className="flex justify-between text-xs sm:text-sm text-white mb-1 sm:mb-2">
-                
-                <span>{skill.level}%</span>
-              </div>
-              <div className="w-full bg-gray-700 rounded-full h-2 sm:h-3 overflow-hidden">
-                <div
-                  className="bg-blue-500 h-2 sm:h-3 rounded-full transition-all duration-1000 ease-out"
-                  style={{ width: `${skill.level}%` }}
-                ></div>
-              </div>
-            </div>
+           
 
             {/* Decorative Elements */}
             
