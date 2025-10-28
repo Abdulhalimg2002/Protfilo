@@ -35,7 +35,7 @@ const index = () => {
     <AnimatedOnScroll delay={0.6} direction="right">
       <div className="mt-6 flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center">
         <Links
-          href="/AbdulHalimGherraResume.pdf"
+          href="/AbdulHalimGherraResume (1).pdf"
           download
           className="px-5 sm:px-6 py-2 sm:py-3 bg-blue-700 text-white rounded-lg text-sm sm:text-base md:text-lg transition-colors duration-300 text-center"
           text="Download My CV"
