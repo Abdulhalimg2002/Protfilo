@@ -34,11 +34,11 @@ export const Navlink:Nav[]=[
 export const ProjectsS:ProjectC[]=[
     {
         id:"Salone",
-        img:"https://scontent.fist7-2.fna.fbcdn.net/v/t39.30808-6/499916058_1896556817766706_6606878873249489728_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=XV_lOewHavwQ7kNvwFRH4GT&_nc_oc=AdkORog17W2DpKUINjuJEphHZXQqReurGEV76TIxIPQAvBpxI8l600m2S3pkaEl6EBs&_nc_zt=23&_nc_ht=scontent.fist7-2.fna&_nc_gid=Gprt-C6q5C44F5TciSVcBA&oh=00_AffaKYYk8HaDiP3cRptE6YB8acuTD_feHU4m1V5yF-Cmiw&oe=68F6C1B0",
+        img:"/Ma.png",
         projectT:"Masaya Haneen",
-        Tool:["HTML","JavaScript","TalwindCss"],
+        Tool:["Reat js","TypeScript","TalwindCss"],
 des:"Masaya Haneen brings the barber experience online — browse services, book appointments, view offers, and meet our expert team in one seamless platform.",
-href:["https://abdulhalimg2002.github.io/Masaya-Haneen/","https://github.com/Abdulhalimg2002/Masaya-Haneen"],
+href:["https://massaya-haneen.netlify.app/","https://github.com/Abdulhalimg2002/Massaya-Haneen"],
 Text:["Live Demo","Github"],
 
     },
@@ -49,6 +49,17 @@ Text:["Live Demo","Github"],
         Tool:["HTML","CSS","JavaScript","PHP","MySQL"],
 des:"TaskManager helps teams organize, track, and prioritize tasks for better productivity and collaboration.",
 href:["http://taskmanger3.wuaze.com","https://github.com/Abdulhalimg2002/TAsk_Manger"],
+Text:["Live Demo","Github"],
+
+
+},
+   {
+        id:"Product Builder",
+        img:"https://cdn-icons-png.flaticon.com/512/17352/17352586.png",
+        projectT:"Product Builder",
+        Tool:["Reat js","TypeScript","TalwindCss"],
+des:"A lightweight Product Builder application that enables users to create, view, update, and delete products efficiently. Built with clean and simple design principles.",
+href:["https://products-builder1.netlify.app/","https://github.com/Abdulhalimg2002/products-builder"],
 Text:["Live Demo","Github"],
 
 
