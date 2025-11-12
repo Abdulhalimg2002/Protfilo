@@ -64,6 +64,17 @@ Text:["Live Demo","Github"],
 
 
 },
+  {
+        id:"Todo",
+        img:"/image.png",
+        projectT:"Todo",
+        Tool:["Reat js","TypeScript","TalwindCss","API"],
+des:"Todo Project is a simple task management application that allows users to add, edit, and delete tasks as they complete them. The project helps users organize their daily activities and improve productivity by keeping track of tasks in an easy and efficient way.",
+href:["https://abdulhalimtodo.netlify.app/","https://github.com/Abdulhalimg2002/fullstack-todo-app"],
+Text:["Live Demo","Github"],
+
+
+},
 
 
 
