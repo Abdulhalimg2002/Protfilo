@@ -44,7 +44,7 @@ const Contact = () => {
             className="flex items-center gap-3 px-6 py-3 border hover:bg-[#3396D3] border-gray-600  rounded-lg  transition"
             text="GitHub"
           >
-            <FaGithub className="text-black dark:text-white text-xl" />
+            <FaGithub className=" text-white text-xl" />
           </Links>
 
           {/* WhatsApp */}
