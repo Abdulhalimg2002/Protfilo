@@ -57,7 +57,7 @@ const Index = ({ Navbarlinks }: IPropes) => {
         {/* Mobile / iPad Menu Button (ظهر أقل من lg) */}
         <div className="lg:hidden">
           <button
-            className="text-black dark:text-white"
+            className="text-white"
             onClick={() => setMobileOpen(!mobileOpen)}
           >
             {mobileOpen ? <FaTimes size={24} /> : <FaBars size={24} />}
