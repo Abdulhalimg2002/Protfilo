@@ -41,10 +41,10 @@ const Contact = () => {
           <Links
             href="https://github.com/Abdulhalimg2002"
             target="_blank"
-            className="flex items-center gap-3 px-6 py-3 border hover:bg-[#3396D3] border-gray-600  rounded-lg  transition"
+            className="flex items-center justify-center gap-3 w-full px-6 py-3 border border-gray-600 rounded-lg hover:bg-[#3396D3] transition"
             text="GitHub"
           >
-            <FaGithub className=" text-white text-xl" />
+            <FaGithub className="text-white text-xl" />
           </Links>
 
           {/* WhatsApp */}
