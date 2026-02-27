@@ -23,7 +23,7 @@ const index = () => {
         direction={index % 2 === 0 ? "left" : "right"}
         stagger={0.1 * index}
       >
-        <div className="group flex flex-col items-center justify-between bg-gray-800 p-6 sm:p-8 rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 border border-gray-200 dark:border-gray-700 h-full min-h-[350px]">
+        <div className="group flex flex-col items-center justify-between bg-gray-800 p-6 sm:p-8 rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 border border-gray-700 h-full min-h-[350px]">
           {/* Icon */}
           <div className="text-6xl mb-6 text-[#3396D3] group-hover:scale-110 transition-transform duration-300">
             {service.icon}

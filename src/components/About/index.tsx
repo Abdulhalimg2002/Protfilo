@@ -48,7 +48,7 @@ const Index = () => {
 
       {/* Based in */}
       <div className="border font-bold border-gray-700 p-3 sm:p-4 rounded-lg">
-        <Title className="mb-1 text-xl sm:text-2xl md:text-3xl">Based in:</Title>
+        <Title className="mb-1 text-xl  sm:text-2xl md:text-3xl">Based in:</Title>
         <Prag className="text-sm sm:text-base md:text-lg md:text-left">
           Istanbul, Türkiye / Open to Relocate
         </Prag>
@@ -56,7 +56,7 @@ const Index = () => {
 
       {/* Education */}
       <div className="border border-gray-700 p-3 sm:p-4 rounded-lg">
-        <Title className="mb-1 text-xl sm:text-2xl md:text-3xl">Education:</Title>
+        <Title className="mb-1 text-xl sm:text-2xl  md:text-3xl">Education:</Title>
         <div className="space-y-1">
           <Prag className="text-sm sm:text-base md:text-lg md:text-left">Bachelor’s Degree in Software Engineering</Prag>
           <Prag className="text-sm sm:text-base md:text-lg md:text-left">Üsküdar University — Istanbul, Türkiye</Prag>
@@ -66,7 +66,7 @@ const Index = () => {
 
       {/* Languages */}
       <div className="border border-gray-700 p-3 sm:p-4 rounded-lg">
-        <Title className="mb-1 text-xl sm:text-2xl md:text-3xl">Languages:</Title>
+        <Title className="mb-1 text-xl   sm:text-2xl md:text-3xl">Languages:</Title>
         <div className="flex flex-wrap justify-center md:justify-start gap-2 sm:gap-3">
           {['Arabic', 'English'].map(lang => (
             <span

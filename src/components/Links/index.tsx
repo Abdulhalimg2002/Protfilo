@@ -18,7 +18,7 @@ const index=({ text,href,download,className,onClick,active,children}:IPropes)=>{
       target={download ? "_self" : (isInternal ? "_self" : "_blank")}
       
       className={`px-6 py-3  rounded-md transition  ${
-        active ? " font-bold" : "text-black dark:text-white   "
+        active ? " font-bold" : "text-white   "
       } ${className}` }>{text} {children}</a>
 
     )
