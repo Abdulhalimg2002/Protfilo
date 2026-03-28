@@ -65,6 +65,16 @@ href:["https://my-e-commers.netlify.app/","https://github.com/Abdulhalimg2002/E-
 Text:["Live Demo","Github"],
 
     },
+    {
+        id:"Aİ-Travel-plan",
+        img:"/Gemini_Generated_Image_39dx5439dx5439dx.png",
+        projectT:"Aİ-Travel-plan",
+        Tool:[" Next.js ","React js","TypeScript","ShadCN UI","Redux Toolkit","MongoDB ","OpenAI"],
+         des:"AI Travel Plan is a smart travel planning application that transforms the way you organize your trips. Leveraging artificial intelligence, it provides personalized itineraries, including destination suggestions, daily activity planning, and accommodation recommendations. Users can also generate PDF travel plans for easy sharing or reference.With AI Travel Plan, traveling becomes more organized, efficient, and enjoyable—whether it’s a short getaway or an extensive adventure.",
+href:["https://travel-plans-delta.vercel.app/","https://github.com/Abdulhalimg2002/travel-plans"],
+Text:["Live Demo","Github"],
+
+    },
 
 
 

@@ -22,7 +22,7 @@ const Contact = () => {
           <Links
             href="mailto:abdulhalim2002ii@gmail.com"
             className="flex items-center gap-3 px-6 py-3 hover:bg-[#3396D3] border border-gray-600   rounded-lg  transition"
-            text="Email Me"
+            text="Email"
           >
             <FaEnvelope className="text-red-500 text-xl" />
           </Links>
