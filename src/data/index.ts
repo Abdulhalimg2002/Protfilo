@@ -57,7 +57,7 @@ Text:["Live Demo","Github"],
 },
 {
         id:"My-e-commers",
-        img:"/vite-project/public/Platform.png",
+        img:"/Platform.png",
         projectT:"My-e-commers",
         Tool:["React.js,Next.js","TypeScript","shadcn UI","zustand","node.js","Express.js","PostgreSQL","Rest API","Strapi"],
 des:"Developed a modern full-stack e-commerce platform with scalable architecture.Built responsive and reusable UI components using Tailwind CSS and shadcn/ui. Implemented secure authentication and authorization using JWT and Google OAuth. Developed RESTful APIs with Express.js and Prisma ORM.Designed and managed relational databases using PostgreSQL. Integrated Stripe payment gateway for secure online transactions.Built admin dashboard for managing products, categories, orders, and users. Implemented image upload and cloud storage using Cloudinary.Added protected routes, cookie-based authentication, and role-based access control.Optimized application performance and responsive experience across devices.Deployed frontend and backend services on cloud platforms.",
