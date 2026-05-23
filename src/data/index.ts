@@ -57,24 +57,50 @@ Text:["Live Demo","Github"],
 },
 {
         id:"My-e-commers",
-        img:"https://www.sipromad.com/wp-content/uploads/2023/02/Logo-MyStore.png",
+        img:"https://e-commersss-k0b4ze65e-1s-projects-7c885f5c.vercel.app/",
         projectT:"My-e-commers",
-        Tool:["React js","TypeScript","Chakra UI","Redux Toolkit","Rest API"],
-des:"E-Commerce Platform A full-stack e-commerce web application built with React, TypeScript, Redux Toolkit, and Strapi CMS. It allows admins to manage products, categories, images, and stock through a modern dashboard, while users can browse and view products by category. The system ensures reliable data relationships and a smooth, responsive user experience.",
-href:["https://my-e-commers.netlify.app/","https://github.com/Abdulhalimg2002/E-commers"],
+        Tool:["React.js,Next.js","TypeScript","shadcn UI","zustand","node.js","Express.js","PostgreSQL","Rest API","Strapi"],
+des:"Developed a modern full-stack e-commerce platform with scalable architecture.Built responsive and reusable UI components using Tailwind CSS and shadcn/ui. Implemented secure authentication and authorization using JWT and Google OAuth. Developed RESTful APIs with Express.js and Prisma ORM.Designed and managed relational databases using PostgreSQL. Integrated Stripe payment gateway for secure online transactions.Built admin dashboard for managing products, categories, orders, and users. Implemented image upload and cloud storage using Cloudinary.Added protected routes, cookie-based authentication, and role-based access control.Optimized application performance and responsive experience across devices.Deployed frontend and backend services on cloud platforms.",
+href:["https://e-commersss.vercel.app/","https://github.com/Abdulhalimg2002/e-commersss"],
 Text:["Live Demo","Github"],
 
     },
     {
-        id:"Aİ-Travel-plan",
+        id:"AI-Travel-plan",
         img:"/Gemini_Generated_Image_39dx5439dx5439dx.png",
-        projectT:"Aİ-Travel-plan",
-        Tool:[" Next.js ","React js","TypeScript","ShadCN UI","Redux Toolkit","MongoDB ","OpenAI"],
+        projectT:"AI-Travel-plan",
+        Tool:[" Next.js ","React js","TypeScript","ShadCN UI","MongoDB ","OpenAI","API Routes"],
          des:"AI Travel Plan is a smart travel planning application that transforms the way you organize your trips. Leveraging artificial intelligence, it provides personalized itineraries, including destination suggestions, daily activity planning, and accommodation recommendations. Users can also generate PDF travel plans for easy sharing or reference.With AI Travel Plan, traveling becomes more organized, efficient, and enjoyable—whether it’s a short getaway or an extensive adventure.",
 href:["https://travel-plans-delta.vercel.app/","https://github.com/Abdulhalimg2002/travel-plans"],
 Text:["Live Demo","Github"],
 
     },
+   {
+       id: "EKA",
+       img: "/52c3b1ef-ecf5-4f3d-8602-9e0109372dd3-removebg-preview.png",
+       projectT: "EKA",
+       Tool: ["HTML", "Tailwind CSS", "JavaScript", "PHP", "Laravel", "MySQL"],
+       des: "EAK is a modern platform designed to help people easily find and book unique places to stay while supporting local hosts.Throughout this project, I handled the design and development of the platform, focusing on:A clean and intuitive user experience .Secure booking and payment workflowsEfficient host management tools.Responsive design for mobile and webBuilding EAK allowed me to apply my knowledge in software engineering, from database design and backend development to UI/UX, security, and testing.",
+href: ["https://github.com/Abdulhalimg2002/EAK-HOTEL"] ,
+       Text: [ "Github"],
+   },
+   {
+    id:"Dashboard",
+    img:"/dashboard.png.png",
+    projectT:"Dashboard",
+    Tool:["React js","Next.js","TypeScript","Tailwind CSS","ShadCN UI"],
+     des:"Dashboard is a powerful and intuitive web application designed to provide users with real-time insights and analytics. Built with React.js, TypeScript, and Tailwind CSS, it offers a visually appealing and responsive interface for data visualization. The dashboard features interactive charts, graphs, and widgets that allow users to monitor key performance indicators (KPIs), track trends, and make informed decisions based on the displayed data. With its user-friendly design and robust functionality, the Dashboard is an essential tool for businesses and individuals looking to gain valuable insights from their data.",
+
+   },
+   {
+    id:"watan tours",
+    img:"/WhatsApp_Image_2026-03-25_at_23.26.46-removebg-preview.png",
+    projectT:"Watan Tours",
+    Tool:["Next.js","TypeScript","ShadCN UI","Tailwind CSS"],
+     des:"Watan Tours is a travel website that offers a wide range of tour packages and travel services to customers. The website provides an easy-to-use interface for users to browse and book tours, as well as access information about destinations, itineraries, and pricing. With a focus on customer satisfaction and memorable travel experiences, Watan Tours aims to be a trusted platform for travelers seeking unique and exciting adventures around the world.",
+href:["https://watan-tours.vercel.app/"],
+Text:["Live Demo"],
+   }
 
 
 
@@ -215,5 +241,25 @@ export const Skills:Skill[]=[
        
         category:"Backend",
         icon:"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg"
-    }
+    },
+    {
+        id:"nodejs",
+        name:"nodejs",
+        category:"Backend",
+       
+        icon:"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg"
+    },
+    {
+        id:"PostgreSQL",
+        name:"PostgreSQL",
+        category:"Backend",
+        icon:"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg"
+    },
+    {
+        id:"Redux",
+        name:"Redux",
+        category:"tools",
+        icon:"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redux/redux-original.svg"
+    },
+    
 ]

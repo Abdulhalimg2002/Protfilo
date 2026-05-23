@@ -8,8 +8,8 @@ img:string;
 projectT:string;
 des:string;
 Tool:string[];
-href:string[];
-Text:string[];
+href?:string[];
+Text?:string[];
 }
 export interface ServiceC{
 id:string;

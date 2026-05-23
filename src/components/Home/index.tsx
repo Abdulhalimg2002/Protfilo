@@ -38,7 +38,7 @@ const index = () => {
     <AnimatedOnScroll delay={0.6} direction="right">
       <div className="mt-8 flex flex-col sm:flex-row items-center justify-center gap-4">
         <Links
-          href="/Blue Simple Professional CV Resume (3).pdf"
+          href="/Abdulhalim Gherra (12).pdf"
           download
           className="w-full sm:w-auto px-6 py-3 bg-blue-700 hover:bg-blue-800 text-white rounded-lg text-sm sm:text-base md:text-lg transition-all duration-300 text-center"
           text="Download My CV"
