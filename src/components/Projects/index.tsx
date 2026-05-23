@@ -80,15 +80,15 @@ const Projects = () => {
               </div>
 
               <div className="mt-6 flex gap-3 sm:gap-4 justify-center flex-wrap">
-                {project.href.map((href, index) => (
-                  <Links
-                    key={index}
-                    href={href}
-                    target="_blank"
-                    className="px-4 py-2 bg-blue-700 text-white rounded-lg hover:bg-blue-800 transition text-xs sm:text-sm"
-                    text={project.Text[index]}
-                  />
-                ))}
+                {(project.href ?? []).map((href, index) => (
+  <Links
+    key={index}
+    href={href}
+    target="_blank"
+    className="px-4 py-2 bg-blue-700 text-white rounded-lg hover:bg-blue-800 transition text-xs sm:text-sm"
+    text={project.Text?.[index] ?? ""}
+  />
+))}
               </div>
             </div>
           </div>
